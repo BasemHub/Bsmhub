@@ -34,9 +34,9 @@ local bsmbsm = true
 
 btnbm.MouseButton1Click:Connect(function()
     if bsmbsm then
-        MainWindow.Visible = false
+        OrionLib.Visible = false
     else
-        MainWindow.Visible = true
+        OrionLib.Visible = true
     end
     bsmbsm = not bsmbsm
 end)
